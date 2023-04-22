@@ -226,8 +226,8 @@ hr {
 }
 
 #classes div {
-    color: black;
-    background-color: rgba(0, 0, 0, .6);
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.6);
     width: 20%;
     height: 300px;
     float: left;
@@ -237,6 +237,28 @@ hr {
     box-sizing: border-box;
 }
 
-#map-wrapper {
-    padding-top: 100px;
+#map-wrapper{
+    margin-top: 20%;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: gray;
 }
