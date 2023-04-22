@@ -186,3 +186,41 @@ hr {
     height: 100%;
     border-radius: 50%;
 }
+
+/*  class times */
+
+#yin-yoga {
+    background-image: url(../images/yin-yoga-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+    overflow: hidden;
+}
+
+#hatha-yoga {
+    background-image: url(../images/hatha-yoga-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+    overflow: hidden;
+}
+
+#hot-yoga {
+    background-image: url(../images/hot-yoga-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+    overflow: hidden;
+}
+
+#resto-yoga {
+    background-image: url(../images/resto-yoga-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+    overflow: hidden;
+}
