@@ -279,6 +279,12 @@ footer {
     background-color: chocolate;
 }
 
+#meditation {
+    width: 100%;
+    clear: both;
+    height: 600px;  
+}
+
 /* media queries */
 
 /* For larger to medium screens from 1200px wide and down */
