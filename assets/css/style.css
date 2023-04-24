@@ -119,24 +119,20 @@ h1, h2 {
 
 #left-about {
     padding-top: 30px;
-    width: 33%;
+    width: 50%;
     float: left;
 }
 
 #right-about {
-    padding-top: 30PX;
-    width: 33%;
+    padding-top: 100PX;
+    width: 50%;
     float: right;   
 }
 
-#center-about {
-    width: 33%;
-    margin: 0 auto;  
-}
 
 hr {
     border-top: 1px solid gray;
-    width: 100%;
+    width: 99%;
     margin: 5px 0;
 }
 
@@ -170,22 +166,6 @@ hr {
     font-size: 280%;
 }
 
-#oval-container {
-   width: 200px;
-   height: 300px;
-   padding: 30px;
-   border-style: solid;
-   border-color: gray;
-   border-width: 1px;
-   border-radius: 50%;
-   margin: 0 auto;
-}
-
-#oval-cover-bg {
-    background: url(../images/non-stock-oval-image.png) no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
 
 /*  class times */
 
@@ -225,6 +205,16 @@ hr {
     overflow: hidden;
 }
 
+#aerial-yoga {
+    background-image: url(../images/aerial-yoga-image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+    overflow: hidden;
+}
+
+
 #classes div {
     
     width: 20%;
@@ -240,9 +230,13 @@ hr {
     color: chocolate;
 }
 
+#map {
+    text-align: center;
+    padding-top: 100px;
+}
 
 #map-wrapper{
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 /* footer */
@@ -388,6 +382,16 @@ footer {
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
-        line-height: 25px;
+        line-height: 25px; 
+        font-size: 12px;
+        letter-spacing: 1px; 
     }
+
+    #logo {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    
+
 }
