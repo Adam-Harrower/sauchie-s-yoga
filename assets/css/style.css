@@ -182,7 +182,7 @@ hr {
 }
 
 #oval-cover-bg {
-    background: url(../images/yoga-center-image.png) no-repeat center center;
+    background: url(../images/non-stock-oval-image.png) no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -190,7 +190,7 @@ hr {
 /*  class times */
 
 #yin-yoga {
-    background-image: url(../images/yin-yoga-image.jpg);
+    background-image: url(../images/non-stock-yin-yoga-image.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -199,7 +199,7 @@ hr {
 }
 
 #hatha-yoga {
-    background-image: url(../images/hatha-yoga-image.jpg);
+    background-image: url(../images/non-stock-yoga-image.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -208,7 +208,7 @@ hr {
 }
 
 #hot-yoga {
-    background-image: url(../images/hot-yoga-image.jpg);
+    background-image: url(../images/non-stock-hot-yoga.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -217,7 +217,7 @@ hr {
 }
 
 #resto-yoga {
-    background-image: url(../images/resto-yoga-image.jpg);
+    background-image: url(../images/non-stock-resto-yoga.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -280,16 +280,34 @@ footer {
     width: 100%;
 }
 
+#adm {
+    text-align: center;
+    background-color: chocolate;
+}
+
 /* media queries */
 
 /* For larger to medium screens from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #benifits {
-        width: 65%;
-        height: 1200px; 
-        margin: 0 auto;
+       width: 65%;
+       height: 1200px;
+       margin: 0 auto;
     }
 
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #map-wrapper{
+        margin-top: 20%;
+    }
+
+    
     #welcome {
         padding: 30px 0;
         margin: 0;        
@@ -363,5 +381,13 @@ footer {
 @media screen and (max-width: 800px) {
     #photos {
         column-count: 2;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 }
