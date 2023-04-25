@@ -235,9 +235,14 @@ hr {
     padding-top: 100px;
 }
 
-#map-wrapper{
-    margin-top: 10%;
-}
+#map-wrapper {
+    width: 100%;
+    clear: both;
+    height: 600px;  
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}    
 
 /* footer */
 
