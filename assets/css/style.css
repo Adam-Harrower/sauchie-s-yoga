@@ -283,6 +283,9 @@ footer {
     width: 100%;
     clear: both;
     height: 600px;  
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 .come-along-form {
@@ -295,14 +298,8 @@ footer {
 }
 
 .come-along-form h2 {
-    color: #fafafa;
+    color: chocolate;
     margin-bottom: 20px;
-}
-
-#come-along-img {
-   float: right;
-   width: 50%;
-   height: 500px;
 }
 
 
@@ -334,10 +331,10 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
-
+/* 
     #map-wrapper{
         margin-top: 20%;
-    }
+    } */
 
     
     #welcome {
@@ -367,6 +364,13 @@ footer {
     
     hr {
         display: none;
+    }
+
+    #meditation {
+        width: 100%;
+       height: auto;
+       margin: 0;
+    }
     }
 }
 
