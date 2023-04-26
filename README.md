@@ -1,108 +1,66 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Sauchie's Yoga Sessions
 
-Welcome ADAM HARROWER,
+The Sauchie yoga session webpage was designed so that someone searching the internet could find a local yoga club and see some of the techniques uesed in the classes, anyone from just starting out to someone that has been doing yoga for years can come along and join in. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+someone using the wedsite can clearly see the types of yoga that is on offer from the class time tabel and the images in the community page and can sign up to come along to what ever day of there choosing, any that takes there fancy. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![ami-responsive](https://user-images.githubusercontent.com/125028133/234691131-2ae42db5-0514-43ac-9f84-48f9a8e60bf7.png)
 
-## Gitpod Reminders
+Features 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The webisite name Sauchie's Yoga Sessions is found at the top of the all the pages on the website and links back to home page from what ever page the user is on, 
+The other links in the menu section on the top of all the pages are the community page, the meditation page and the come along page for the sign up.
+The pages the user is on is clearly indicated and easy to find.
+The benefits section lets the user know how good yoga is for the body, mind and soal.
 
-`python3 -m http.server`
+The class time table and types of yoga on offer on that day is clear from the images used and times diplayed on each image. 
+![class-times-screenshot](https://user-images.githubusercontent.com/125028133/234696356-ad861443-0752-4a7c-afcd-d99f12326c37.png)
 
-A blue button should appear to click: _Make Public_,
+The map section is handy for users not local to the area and can be used to get to the location of the yoga class on the day of there choosing.
+ ![map-screenshot](https://user-images.githubusercontent.com/125028133/234696668-75fbe5f0-5497-4e01-926b-f3b69e20afed.png)
 
-Another blue button should appear to click: _Open Browser_.
+Social media links are place at the bottom of all pager in the website and open up in a new tab when clicked.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The community page can be used to see the types of yoga that has gone on in the classes and gives the user an idea of what they will find when they come along to a class. 
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+The meditation page provides a short video for the user to play and take some time out from a busy day and relax.
+![meditation-screenshot](https://user-images.githubusercontent.com/125028133/234697041-7c7caa71-6d25-4e30-b46a-26ef28d01735.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The come along page has a form that user can fill out and decide on what day they would like to come along to, all if they wish using checkboxes.
+![come-along-sceenshot](https://user-images.githubusercontent.com/125028133/234695861-bfcbd19c-bf95-4613-83a4-c847d244c94b.png)
 
-To log into the Heroku toolbelt CLI:
+Testing 
+The website was tested on Google and Microsoft Edge.
+The website is responsive on all standard screen sizes using the devtools device toolbar. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+All context is clear, readable and understandable on all devices. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The form on the come along page works and can't be submitted until all feilds are filled out correctly. 
 
-------
+Validator Teasting 
 
-## Release History
+HTML 
+No errors were returned when usng the W3C HTML Validator.
+CSS 
+No errors were retunred when usning the W3C CSS Validator.
+Accessabilty
+The colors and fonts used are easy to read and work well with each other by using the lighthouse in devtools.
+![lighthouse-screenshot](https://user-images.githubusercontent.com/125028133/234700448-dfd338e4-ec89-4bcb-a557-9711b21904d2.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Deployment 
+The site was depolyed to GitHub pages, the steps are as follows,
+In the GitHub repository, nav to settings tab,
+From the source section drop-down menu, select teh master branch,
+Once the master branch had been selected, the page provides a link the the completed website. 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+The link can be found here : https://adam-harrower.github.io/sauchie-s-yoga/
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Credits 
+ Content 
+ some code was used from the Love Running page as i used it for inspiration but mostly my own code to create the website, 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+ Media 
+ images were taken from Pexels, Pixabay and Freeimages 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
