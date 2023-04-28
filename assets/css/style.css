@@ -244,6 +244,37 @@ hr {
     overflow-x: hidden;
 }    
 
+.come-along-form {
+    clear: both;
+    padding-left: 20px;
+    background-size: auto;
+    background-position: center;
+    height: 500px;  
+    width: 33%;
+}
+
+.come-along-form h2 {
+    color: chocolate;
+    margin-bottom: 20px;    
+}
+
+.form {
+    clear: both;
+    height: 600px;
+}
+
+.form-button {
+    width: auto;
+    padding: 0.5em; 
+    margin-top: 10px;
+    color: white;
+    background-color: chocolate;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+
+
 /* footer */
 
 footer {
@@ -306,7 +337,6 @@ footer {
     color: chocolate;
     margin-bottom: 20px;
 }
-
 
 
 .text-input {
@@ -432,8 +462,18 @@ footer {
     #logo {
         font-size: 20px;
         letter-spacing: 1px;
+    }  
+
+}
+
+@media screen and (max-width: 375px) {
+    .meditation {
+        width: auto;
+        height: 1200px;
     }
-
-    
-
+     #menu {
+    line-height: 20px;
+    font-size: 8px;
+    letter-spacing: 0.5px;
+     }
 }
